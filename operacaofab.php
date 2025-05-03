@@ -6,6 +6,7 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="Css/pags-aux.css">
     <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -63,13 +64,13 @@
         </div>
         <div class="container">
         <div class="container-principal-local">
-        <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">OPERAÇÕES DE FABRICAÇÃO</h4>
+        <h4 class="page-header">Operações de Fabricação</h4>
          <hr>
             <form action="cadastro-oper.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
                 <div class="form-group col-md-2">
                   <label>Código da Operação:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_cod" placeholder="Informe cód. da operação" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_cod" placeholder="Informe cód. operação" required/>
                 </div>
                   <div class="form-group col-md-5">
                     <label>Descrição:</label>
@@ -79,7 +80,7 @@
                 <div class="row">
                 <div class="form-group col-md-8" style="margin: 1rem 0">
                   <label>Observações da Operação:</label>
-                  <textarea cols="4" rows="2" class="form-control col-md-8" name="c_compl" style="width: 640px"; placeholder="Informe algum complemento da operação"></textarea> 
+                  <textarea cols="4" rows="2" class="form-control form-control-textarea col-md-8" name="c_compl" style="width: 640px"; placeholder="Informe um complemento para a operação"></textarea> 
                 </div>
               </div>
                 <input type="submit" class="btn btn-primary" name="btn_enviar" value="Cadastrar">

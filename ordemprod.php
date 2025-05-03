@@ -6,6 +6,7 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="Css/pags-aux.css">
     <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -61,7 +62,7 @@
         </div>
         <div class="container">
         <div class="container-principal-produtos">
-        <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">ORDEM DE PRODUÇÃO</h4>
+        <h4 class="page-header">Ordem de Produção</h4>
          <hr>
             <form action="cadastro-ordem.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
@@ -72,19 +73,19 @@
                 <div class="form-group col-md-2">
                     <label>Situação:</label>
                     <select  name="c_situacao" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Informe situação" required>
-                      <option value="1-Planejada">1-Planejada</option>
-                      <option value="2-Liberada">2-Liberada</option>
-                      <option value="3-Produção">3-Produção</option>
-                      <option value="4-Encerrada">4-Encerrada</option>
-                      <option value="5-Finalizada">5-Finalizada</option>
+                      <option value="1-Planejada">1. Planejada</option>
+                      <option value="2-Liberada">2. Liberada</option>
+                      <option value="3-Produção">3. Produção</option>
+                      <option value="4-Encerrada">4. Encerrada</option>
+                      <option value="5-Finalizada">5. Finalizada</option>
                     </select>
                   </div>
                   <div class="form-group col-md-2">
                     <label>Tipo:</label>
                     <select  name="c_tipo" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Informe tipo" required>
-                      <option value="1-Normal">1-Normal</option>
-                      <option value="2-Retrabalho">2-Retrabalho</option>
-                      <option value="3-Reforma">3-Reforma</option>
+                      <option value="1-Normal">1. Normal</option>
+                      <option value="2-Retrabalho">2. Retrabalho</option>
+                      <option value="3-Reforma">3. Reforma</option>
                     </select>
                   </div>
                   <hr>

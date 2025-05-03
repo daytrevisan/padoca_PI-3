@@ -7,6 +7,7 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="Css/produtos.css">
     <link rel="shortcut icon" href="../padoca/Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -58,10 +59,10 @@
 
         <div class="container">
           <div class="container-principal-produtos">
-          <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">MOVIMENTO DE ESTOQUE</h4>
+          <h4 class="page-header">Movimento de Estoque</h4>
              <form class="form-inline" action="pesquisa-movto.php" method="POST">
                 <input type="text" class="form-control form-control-sm col-md-10 col-sm-10" name="c_pesquisa" placeholder="Pesquisar Produto" required="">
-                 <input class="btn btn-sm" type="submit" name="btn_pesquisa">
+                 <input class="btn btn-sm btn-primary" type="submit" name="btn_pesquisa">
              </form>
            <hr>
               <!--Controlador de tamanho e margem da tabela-->

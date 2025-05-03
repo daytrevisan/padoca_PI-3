@@ -6,7 +6,8 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
-    <link rel="shortcut icon" href="../padoca/Imagens/icons/bread-icon.png">
+        <link rel="stylesheet" href="Css/produtos.css">
+        <link rel="shortcut icon" href="../padoca/Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
       </head>
@@ -61,14 +62,14 @@
         </div>
         <div class="container">
         <div class="container-principal-produtos">
-        <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">CADASTRO DE PRODUTO</h4>
+        <h4 class="page-header">Cadastro de Produto</h4>
          <hr>
             <form action="cadastro-prod.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
 
               <div class="form-group col-md-3">
-                  <label>Codigo Produto:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_cod" placeholder="Digite o codigo do produto" required/>
+                  <label>Código do Produto:</label>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_cod" placeholder="Digite o código do produto" required/>
                 </div>
                    <hr>
                 <div class="form-group col-md-6">
@@ -76,13 +77,13 @@
                   <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_nome" placeholder="Digite o nome do produto" required/>
                 </div>
                 <div class="form-group col-md-3">
-                    <label>UM:</label>
-                    <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_um" placeholder="Digite a unidade medida do produto" required>
+                    <label>Unidade:</label>
+                    <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_um" placeholder="Digite a unidade de medida do produto" required>
                   </div>    
                   <hr>
                   <div class="form-group col-md-3">
                     <label>Quantidade:</label>
-                    <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_qtde" placeholder="Digite a qtde do produto" required>
+                    <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_qtde" placeholder="Digite a quantidade do produto" required>
                   </div>      
                   <div class="form-group col-md-3">
                     <label>Valor:</label>
@@ -103,13 +104,13 @@
                   <div class="form-group col-md-8">
                                 <!--Realizando Upload de Imagem-->
                             <label class="control-label">Imagem</label>
-                            <input class="form-control" type="file" name="img">
+                            <input class="form-control form-image" type="file" name="img">
                   </div> 
               </div>
               <div class="row">
                 <div class="form-group col-md-8">
-                  <label>Descrição do Produto:</label>
-                  <textarea cols="4" rows="2" class="form-control col-md-8" name="c_desc" placeholder="Digite alguma descrição sobre o produto"></textarea> 
+                  <label id="descricao">Descrição do Produto:</label>
+                  <textarea cols="4" rows="2" class="form-control form-control-textarea col-md-8" name="c_desc" placeholder="Digite uma descrição para o produto"></textarea>
                 </div>
               </div>
               <input type="submit" class="btn btn-primary" name="btn_enviar" value="Cadastrar">

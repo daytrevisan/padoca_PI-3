@@ -7,6 +7,7 @@ include("seguranca.php");
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="Css/produtos.css">
         <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -61,7 +62,7 @@ include("seguranca.php");
         </div>
         <div class="container">
         <div class="container-principal-local">
-        <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">CADASTRO DE LOCAL ESTOQUE</h4>
+        <h4 class="page-header">Cadastro de Local Estoque</h4>
          <hr>
             <form action="cadastro-loc.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
@@ -69,15 +70,15 @@ include("seguranca.php");
                   <label>Nome do Local:</label>
                   <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_local" placeholder="Digite o nome do local" required/>
                 </div>
-                  <div class="form-group col-md-3">
+                  <div class="form-group col-md-4">
                     <label>Setor:</label>
                     <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_setor" placeholder="Digite o setor do local" required>
                   </div>      
                 </div>
                 <div class="row">
                 <div class="form-group col-md-8">
-                  <label>Descrição do Local:</label>
-                  <textarea cols="4" rows="2" class="form-control col-md-8" name="c_desc" placeholder="Digite alguma descrição do local"></textarea> 
+                  <label id="descricao">Descrição do Local:</label>
+                  <textarea cols="4" rows="2" class="form-control form-control-textarea col-md-8" name="c_desc" placeholder="Digite uma descrição para o local"></textarea> 
                 </div>
               </div>
                 <input type="submit" class="btn btn-primary" name="btn_enviar" value="Cadastrar">
