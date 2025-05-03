@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="Pt-Br">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Padoca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="shortcut icon" href="../padoca/Imagens/icons8-bread-50.png">
+   
+  </head>
+  <body>
+ 
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-white rounded"> <!--Barra Superior-->
+        <div class="container-fluid">
+          <a class="navbar-brand mb-3 mt-1 h1" href="index.php">
+            <div class="img-logo">
+              <img src="Imagens/logos/logo_padoca.png" style="height: 50px !important; width: auto !important;" alt="Logotipo da Padoca composto pela escrita do nome com uma imagem de pão e outra de engrenagem onde combinadas trazem a ideia de sistema para padarias">
+            </div>
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="criadores.html">Criadores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="termosdeusos.html">Termos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="estrutura.php">Estrutura</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="operacaofab.php">Operações</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="roteirofab.php">Roteiros</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="processofab.php">Processos</a>
+        </li> 
+        <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="ordemprod.php">Ordem Prod.</a>
+            </li> 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="apontamento.php">Apontamentos</a>
+        </li> 
+            </ul>
+            <div class="mw-auto" style="width: 8px;"></div>
+            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#notifications">
+            Notificações <span class="badge text-bg-success">3</span>
+            </button>
+        </div>
+        </div>
+    </nav>
+   
+    <div class="mh-auto" style="height: 90px;"></div>  <!--Espaçamento-->
+
+    <div class="card border-success mb-3 mx-auto" style="width: 96%"> <!--Card 1-->
+        <div class="card-body">
+          <h5 class="card-title">Estrutura de Produto</h5>
+          <p>A estrutura de produto define a composição de cada item fabricado, podendo ser montada em vários níveis. É usada para calcular o custo, as necessidades de compra e produção e as baixas de insumos para as ordens de produção. Um item pode ser composto por outros itens, em uma estrutura hierárquica.</p>
+
+          <h5>Operações de Fabricação</h5>
+          <p>A operação de fabricação envolve a combinação de trabalho humano, máquinas, ferramentas e processos automatizados para transformar matérias-primas em produtos acabados. Esse processo pode abranger uma ampla gama de setores como industrias de panificação, desde a produção de alimentos e bebidas.</p>
+
+          <h5>Roteiro de Fabricação</h5>
+          <p>O roteiro de fabricação é a sequência de operações padronizadas por centro de trabalho, arranjo fisico e centro de custo.</p>
+
+          <h5>Processo de Fabricação</h5>
+          <p>O processo de fabricação de um item é a sequência de operações com base no roteiro. São os processos pelos quais a produção é sequenciada, padronizam os roteiros, permite reduzir redundancia operacional e otimizar a produção.</p>
+
+          <h5>Ordem de Produção</h5>
+          <p>A ordem de produção é um documentos que indicam quando o processo produtivo deve ser executado, detalhando ao operador suas atividades e tudo que está envolvido durante a execução da fabricação.</p>
+
+          <h5>Apontamento de Produção</h5>
+          <p>O apontamento de produção é o processo de registrar todas as etapas que um produto percorre na linha de produção. Além do registro do início e fim da produção, o apontamento também permite registrar quantidade peças boas, refugo, sucata, data e hora inicial e final da produção.</p>
+        </div>
+
+    <div class="modal fade" id="notifications" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Notificações</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p class="modal-dialog">Agora nós temos a área de suporte ao usuário</p>
+                  <p class="modal-dialog">Você pode conferir quem são os criadores na aba Criadores</p>
+                  <p class="modal-dialog">Faça seu login ou cadastro para conferir suas informações</p>
+              </div>
+              <div class="modal-footer">
+                  <!--Fundo onde esta os botões no outro-->
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  </body>
+</html>
