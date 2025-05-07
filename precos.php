@@ -6,6 +6,7 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="Css/pags-aux.css">
     <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -58,7 +59,7 @@
         </div>
         <div class="container">
         <div class="container-principal-produtos">
-        <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">PREÇOS DE VENDA</h4>
+        <h4 class="page-header">Preços de Venda</h4>
          <hr>
             <form action="cadastro-preco.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
@@ -71,24 +72,24 @@
                   <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_preco" placeholder="Preço de venda" required/>
                 </div>
                 <div class="form-group col-md-2">
-                    <label>Familia:</label>
-                    <select  name="c_familia" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Informe a familia" required>
-                      <option value="Cervejas">Cervejas</option>
-                      <option value="Sucos">Sucos</option>
-                      <option value="Refrigerantes">Refrigerantes</option>
-                      <option value="Cafés">Cafés</option>
+                    <label>Tipo de Produto:</label>
+                    <select  name="c_familia" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Informe o tipo de produto" required>
                       <option value="Aperitivos">Aperitivos</option>
-                      <option value="Lanches">Lanches</option>
-                      <option value="Porções">Porções</option>
-                      <option value="Pizzas">Pizzas</option>
-                      <option value="Salgados">Salgados</option>
-                      <option value="Doces">Doces</option>
-                      <option value="Pães">Pães</option>
                       <option value="Bolos">Bolos</option>
-                      <option value="Tortas">Tortas</option>
-                      <option value="Refeições">Refeições</option>
+                      <option value="Cafés">Cafés</option>
                       <option value="Caldos">Caldos</option>
+                      <option value="Cervejas">Cervejas</option>
                       <option value="Combo(s)">Combo(s)</option>
+                      <option value="Doces">Doces</option>
+                      <option value="Lanches">Lanches</option>
+                      <option value="Pães">Pães</option>
+                      <option value="Pizzas">Pizzas</option>
+                      <option value="Porções">Porções</option>
+                      <option value="Refrigerantes">Refrigerantes</option>
+                      <option value="Refeições">Refeições</option>
+                      <option value="Salgados">Salgados</option>
+                      <option value="Sucos">Sucos</option>
+                      <option value="Tortas">Tortas</option>
                       <option value="Outros">Outros</option>
                     </select>
                   </div>

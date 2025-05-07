@@ -6,6 +6,7 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="Css/pags-aux.css">
     <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -58,7 +59,7 @@
         </div>
         <div class="container">
         <div class="container-principal-produtos">
-        <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">FICHA DE CONSUMO</h4>
+        <h4 class="page-header">Ficha de Consumo</h4>
          <hr>
             <form action="cadastro-ficha.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
@@ -68,7 +69,7 @@
                 </div>
                 <div class="form-group col-md-3">
                   <label>Descrição:</label>
-                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_desc" placeholder="Descrição ficha de consumo" required/>
+                  <input class="form-control form-control-sm col-md-10 col-sm-10" type="text" name="c_desc" placeholder="Descrição da ficha de consumo" required/>
                 </div>
                 <div class="form-group col-md-2">
                     <label>Tipo:</label>
@@ -82,10 +83,10 @@
                 <div class="form-group col-md-2">
                     <label>Situação:</label>
                     <select  name="c_situacao" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Informe situação" required>
-                      <option value="1-Aberta">1-Aberta</option>
-                      <option value="2-Em-Consumo">2-Em-Consumo</option>
-                      <option value="3-Fechada">3-Fechada</option>
-                      <option value="4-Finalizada">4-Finalizada</option>
+                      <option value="1-Aberta">1. Aberta</option>
+                      <option value="2-Em-Consumo">2. Em-Consumo</option>
+                      <option value="3-Fechada">3. Fechada</option>
+                      <option value="4-Finalizada">4. Finalizada</option>
                     </select>
                   </div>
                   <hr>

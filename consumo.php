@@ -6,6 +6,7 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="Css/pags-aux.css">
     <link rel="shortcut icon" href="../padoca/Imagens/images/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -58,7 +59,7 @@
         </div>
         <div class="container">
         <div class="container-principal-produtos">
-        <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">CONSUMO DE PADARIA</h4>
+        <h4 class="page-header">Consumo de Padaria</h4>
          <hr>
             <form action="cadastro-consumo.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
@@ -77,7 +78,7 @@
                   <hr>
                   <div class="row">
                   <div class="form-group col-md-8">
-                <input type="submit" class="btn btn-primary" name="btn_enviar" value="Apontar Consumo">
+                <input type="submit" class="btn btn-primary" id="btn-apontar" name="btn_enviar" value="Apontar Consumo">
             </form>
         </div><!--Fechando container bootstrap-->
   <?php include("dep_query.php");?>     

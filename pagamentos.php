@@ -6,6 +6,7 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
+        <link rel="stylesheet" href="Css/pags-aux.css">
     <link rel="shortcut icon" href="../padoca/Imagens/images/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -58,7 +59,7 @@
         </div>
         <div class="container">
         <div class="container-principal-produtos">
-        <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">PAGAMENTOS</h4>
+        <h4 class="page-header">Pagamentos</h4>
         <hr>
            <form action="cadastro-pagamentos.php" method="POST" enctype="multipart/form-data" name="upload">
               <div class="row">
@@ -69,11 +70,11 @@
                 <div class="form-group col-md-2">
                     <label>Forma de Pagamento:</label>
                     <select  name="c_forma" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Informe a forma de pagamento" required>
-                      <option value="1-Dinheiro">1-Dinheiro</option>
-                      <option value="2-Débito">2-Débito</option>
-                      <option value="3-Crédito">3-Crédito</option>
-                      <option value="4-Pix">4-Pix</option>
-                      <option value="5-Outros">5-Outros</option>
+                      <option value="1-Dinheiro">1. Dinheiro</option>
+                      <option value="2-Débito">2. Débito</option>
+                      <option value="3-Crédito">3. Crédito</option>
+                      <option value="4-Pix">4. Pix</option>
+                      <option value="5-Outros">5. Outros</option>
                     </select>
                   </div>
                 <div class="form-group col-md-3">
@@ -83,7 +84,7 @@
             <hr>
                   <div class="row">
                   <div class="form-group col-md-8">
-                <input type="submit" class="btn btn-primary" name="btn_enviar" value="Efetuar Pagamento">
+                <input type="submit" class="btn btn-primary" name="btn_enviar" id="btn-efetuar" value="Efetuar Pagamento">
             </form>
             <hr>
 
