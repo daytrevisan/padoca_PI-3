@@ -131,7 +131,7 @@
                                                <!--<b>Data:</b><?php //echo $linha['dt_insercao'];?><br><br>-->             
                                                </div>
                                           <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                            <button type="button" class="btn btn-default btn-primary" data-dismiss="modal">Fechar</button>
                                           </div>
                                         </div>
                                     </div>
