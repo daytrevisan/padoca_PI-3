@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="Pt-Br">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Padoca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/index.css">
+    <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
+   
+  </head>
+  <body>
+ 
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-white rounded"> <!--Barra Superior-->
+        <div class="navbar container-fluid pb-3">
+          <a class="navbar-brand mb-3 h1" href="index.php">
+            <div class="img-logo">
+              <img src="Imagens/logos/logo_padoca.png" style="height: 50px !important; width: auto !important;" alt="Logotipo da Padoca composto pela escrita do nome com uma imagem de pão e outra de engrenagem onde combinadas trazem a ideia de sistema para padarias">
+          </div>
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mb-3 me-3" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="criadores.html">Criadores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="termosdeusos.html">Termos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="local-produto.php">Local Produto</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="produtos.php">Produtos</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="listar-produtos.php">Listar Produtos</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="listar-locais.php">Listar Locais</a>
+        </li> 
+        <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="movto-estoque.php">Movimento Estoque</a>
+            </li> 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="fabrica.html">Fábrica</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pdv.html">PDV-Padaria</a>
+        </li> 
+        </ul>
+            <div class="mw-auto" style="width: 8px;"></div>
+            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#notifications">
+            Notificações <span class="badge text-bg-success">3</span>
+            </button>
+        </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="notifications" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header mb-3">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Notificações</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="notifications-list">
+                  <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                  <p class="modal-dialog">Agora nós temos a área de suporte ao usuário</p>
+              </div>
+              <div class="notifications-list">
+                  <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                  <p class="modal-dialog">Você pode conferir quem são nossos <a href="criadores.html" class="links-modal enable-pointer">criadores</a> e também nossos <a href="colaboradores.html" class="links-modal enable-pointer">colaboradores</a></p>
+              </div>
+              <div class="notifications-list">
+                  <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                  <p class="modal-dialog">Faça seu <a href="login.php" class="links-modal enable-pointer">login</a> ou <a href="cadastre-se.html" class="links-modal enable-pointer">cadastro</a> para conferir suas informações</p>
+              </div>
+              </div>
+              <div class="modal-footer">
+                  <!--Fundo onde tá os botões no outro-->
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div class="mh-auto" style="height: 90px;"></div>  <!--Espaçamento-->
+
+    <div class="card border-success mb-3 mx-auto" style="width: 96%"> <!--Card 1-->
+        <div class="card-body">
+          <h5 class="card-title">Padoca I</h5>
+          <div class="mh-auto" style="height: 15px;"></div>  <!--Espaçamento-->
+          <h5>Planejamento Financeiro - Funcionarios: R$ 2800 Compras R$ 2900 Receitas R$ 7100 - Lucro na Semana: R$ 1400</h5>
+          <h5>Local: Conj. Res. José Bonifácio, São Paulo - SP</h5>
+          <h5>Horario: 05:00 - 23:00</h5>
+          <div class="mh-auto" style="height: 15px;"></div>  <!--Espaçamento-->
+          <h4>Funcionarios:</h4>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Função</th>
+                <th scope="col">Qtde</th>
+                <th scope="col">Salario</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Padeiro</th>
+                <th>02</th>
+                <td>R$600 Por Semana</td>
+                <td>R$1200 Por Semana</td>
+              </tr>
+              <tr>
+                <th>Balconista de Padaria</th>
+                <th>02</th>
+                <td>R$350 Por Semana</td>
+                <td>R$700 Por Semana</td>
+              </tr>
+              <tr>
+                <th>Caixa</th>
+                <th>02</th>
+                <td>R$450 Por Semana</td>
+                <td>R$900 Por Semana</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+    <div class="card border-success mb-3 mx-auto" style="width: 96%"> <!--Card 1-->
+      <div class="card-body">
+        <h5 class="card-title">Padoca II</h5>
+        <div class="mh-auto" style="height: 15px;"></div>  <!--Espaçamento-->
+        <h5>Planejamento Financeiro - Funcionários: R$ 2800 Compras R$ 2400 Receitas R$ 6800 - Lucro na Semana: R$ 1600</h5>
+        <h5>Local: Conj. Res. José Bonifácio, São Paulo - SP</h5>
+        <h5>Horario: 05:00 - 23:00</h5>
+        <div class="mh-auto" style="height: 15px;"></div>  <!--Espaçamento-->
+        <h4>Funcionarios:</h4>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Função</th>
+              <th scope="col">Qtde</th>
+              <th scope="col">Salario</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Padeiro</th>
+              <th>02</th>
+              <td>R$600 Por Semana</td>
+              <td>R$1200 Por Semana</td>
+            </tr>
+            <tr>
+              <th>Balconista de Padaria</th>
+              <th>02</th>
+              <td>R$350 Por Semana</td>
+              <td>R$700 Por Semana</td>
+            </tr>
+            <tr>
+              <th>Caixa</th>
+              <th>02</th>
+              <td>R$450 Por Semana</td>
+              <td>R$900 Por Semana</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  </body>
+</html>

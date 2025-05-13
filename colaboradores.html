@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feira Fácil</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="shortcut icon" href="../padoca/Imagens/icons/bread-icon.png">
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/index.css">
+  </head>
+    <body>
+
+    <div class="mh-auto" style="height: 80px;"></div>  <!--Espaçamento-->
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-white rounded"> <!--Barra Superior-->
+      <div class="container-fluid">
+        <a class="navbar-brand mb-0 h1" href="index.php"><img src="Imagens/logos/logo_padoca.png" style="height: 50px !important; width: auto !important;" alt="Logotipo da Padoca composto pela escrita do nome com uma imagem de pão e outra de engrenagem onde combinadas trazem a ideia de sistema para padarias"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="criadores.html">Criadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="termosdeusos.html">Termos de Uso</a>
+            </li>
+          </ul>
+          <a class="btn btn-outline-success ms-2" href="index.php">Home</a>
+          <button type="button" class="btn btn-outline-success ms-2" data-bs-toggle="modal" data-bs-target="#notifications">
+            Notificações <span class="badge text-bg-success">3</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="modal fade" id="notifications" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Notificações</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="notifications-list">
+                  <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                  <p class="modal-dialog">Agora nós temos a área de suporte ao usuário</p>
+                </div>
+                <div class="notifications-list">
+                  <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                  <p class="modal-dialog">Você pode conferir quem são nossos <a href="criadores.html" class="links-modal enable-pointer">criadores</a> e também nossos <a href="colaboradores.html" class="links-modal enable-pointer">colaboradores</a></p>
+              </div>
+              <div class="notifications-list">
+                  <img class="list-bread" src="Imagens/icons/bread-icon.png">
+                  <p class="modal-dialog">Faça seu <a href="login.php" class="links-modal enable-pointer">login</a> ou <a href="cadastre-se.html" class="links-modal enable-pointer">cadastro</a> para conferir suas informações</p>
+              </div>
+              </div>
+              <div class="modal-footer">
+                  <!--Fundo onde tá os botões no outro-->
+              </div>
+          </div>
+      </div>
+    </div>
+    
+      <div class="card-group border-success mb-3 mx-auto" style="width: 96%"> <!--Grupo de Cards que aparecem com imagem-->
+        <div class="card border-success mb-3"> <!--Card 1-->
+          <div class="card-body text-center">
+            <h5 class="card-title">Gustavo Carvalho</h5>
+            <p class="card-text">Designer</p>
+            <p class="card-text"><small class="text-body-secondary">Criatividade com Usabilidade</small></p>
+            <p><td text-align="center"><ion-icon name="logo-linkedin" class="icon-social"></ion-icon><a href="https://www.linkedin.com/gustavocarvalho" class="bnt btn-outline-success">Linkedln</a></td></p>
+            <p><td text-align="center"><ion-icon name="logo-github" class="icon-social"></ion-icon><a class="animation" href="https://www.github.com/gustavocarvalho">Github</a></td></p>
+            <img src="Imagens/colaboradores/designer_gustavo-carvalho.jpg" class="card-img-bottom alling-center" alt="Foto de Gustavo em um fundo azul, um rapaz de pele clara com cabelo castanho escuro um pouco arrepiado e óculos de armação preta no rosto focado programando em um notebook">
+          </div>
+        </div>
+        <div class="card border-success mb-3"> <!--Card 2-->
+          <div class="card-body text-center">
+            <h5 class="card-title">Denise Alves</h5>
+            <p class="card-text">Front-End</p>
+            <p class="card-text"><small class="text-body-secondary">Interface Amigável</small></p>
+            <p><td text-align="center"><ion-icon name="logo-linkedin" class="icon-social"></ion-icon><a class="mx-auto" href="https://www.linkedin.com/denisealves">Linkedln</a></td></p>
+            <p><td text-align="center"><ion-icon name="logo-github" class="icon-social"></ion-icon><a class="animation1" href="https://www.github.com/denisealves">Github</a></td></p>
+            <img src="Imagens/colaboradores/front-end_denise-alves.jpg" class="card-img-bottom alling-center" alt="Foto de Denise em um fundo escuro, uma moça de pele clara e cabelo castanho média levemente ondulado focada programando em um notebook">
+          </div>
+        </div>
+        <div class="card border-success mb-3"> <!--Card 3-->
+          <div class="card-body text-center">
+            <h5 class="card-title">Lucas Andrade</h5>
+            <p class="card-text">Back-End</p>
+            <p class="card-text"><small class="text-body-secondary">Lógica de Negócio</small></p>
+            <p><td text-align="center"><ion-icon name="logo-linkedin" class="icon-social"></ion-icon><a class="animation5" href="https://www.linkedin.com/lucasandrade">Linkedln</a></td></p>
+            <p><td text-align="center"><ion-icon name="logo-github" class="icon-social"></ion-icon><a class="animation1" href="https://www.github.com/lucasandrade">Github</a></td></p>
+            <img src="Imagens/colaboradores/backend_lucas-andrade.jpg" class="card-img-bottom alling-center" alt="Foto de Lucas, um rapaz de pele escura e cabelos pretos lisos com óculos de armação preta e fone de ouvido tipo arco na cor azul focado programando em um computador do tipo all-in-on">
+          </div>
+        </div>
+        <div class="card border-success mb-3"> <!--Card 3-->
+            <div class="card-body text-center">
+              <h5 class="card-title">Lucia Machado</h5>
+              <p class="card-text">Back-End</p>
+              <p class="card-text"><small class="text-body-secondary">Infra e Arquitetura</small></p>
+              <p><td text-align="center"><ion-icon name="logo-linkedin" class="icon-social"></ion-icon><a class="animation5" href="https://www.linkedin.com/luciamachado">Linkedln</a></td></p>
+            <p><td text-align="center"><ion-icon name="logo-github" class="icon-social"></ion-icon><a class="animation1" href="https://www.github.com/luciamachado">Github</a></td></p>
+              <img src="Imagens/colaboradores/backend_lucia-machado.jpg" class="card-img-bottom alling-center" alt="Foto de Lucia, uma senhora de pele clara e cabelo castanho médio em corte chanel com franja e óculos de armação preta e transparente com uma das mãos no queixo observando o código escrito em um computador e a outra mão em um mouse branco">
+            </div>
+          </div>
+          <div class="card border-success mb-3"> <!--Card 3-->
+            <div class="card-body text-center">
+              <h5 class="card-title">Thiago Oliveira</h5>
+              <p class="card-text">Banco de Dados</p>
+              <p class="card-text"><small class="text-body-secondary">Precisão e Segurança</small></p>
+              <p><td text-align="center"><ion-icon name="logo-linkedin" class="icon-social"></ion-icon><a class="animation5" href="https://www.linkedin.com/thiagooliveira">Linkedln</a></td></p>
+            <p class="p-colaboradores"><td><ion-icon name="logo-github" class="icon-social"></ion-icon><a class="animation1" href="https://www.github.com/thiagooliveira">Github</a></td></p>
+              <img src="Imagens/colaboradores/bd_thiago-oliveira.jpg" class="card-img-bottom alling-center" alt="Foto de Thiago, um rapaz de pele clara e barba e cabelo castanho escuro com fone de ouvido do tipo arco na cor cinza focado programando em um notebook">
+            </div>
+          </div>
+        
+      </div>
+
+      <footer id="footer">
+            
+        <div id="footer-footer" class="footer-container">
+
+            <img src="Imagens/logos/logo_padoca.png" alt="Logotipo da Padoca">
+            <p id="copyright">&copy; Copyright Padoca Sistemas para Padarias - 2024</p>   
+
+        </div>
+
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    </body>
+</html>

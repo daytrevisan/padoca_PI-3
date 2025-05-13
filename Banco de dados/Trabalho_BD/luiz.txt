@@ -1,0 +1,7 @@
+SELECT feirante.nome, vendas.quantidade, produto.nome, fornecedor.nome, barraca.quantidade, estoque.quantidade
+FROM feirante
+JOIN vendas ON feirante.cod_feirante = vendas.cod_feirante_fk
+JOIN produto ON vendas.cod_produto_fk = produto.cod_produto
+JOIN fornecedor ON produto.cod_fornecedor_fk = fornecedor.cod_fornecedor
+JOIN barraca ON vendas.cod_barraca_fk = barraca.cod_barraca
+JOIN estoque ON produto.cod_produto = estoque.cod_produto_fk;
