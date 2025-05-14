@@ -60,7 +60,7 @@
           <h4 class="page-header">Fichas de Consumo</h4>
              <form class="form-inline" action="pesquisa-ficha.php" method="POST">
                 <input type="text" class="form-control form-control-sm col-md-10 col-sm-10" name="c_pesquisa" placeholder="Pesquisar Fichas de Consumo" required="">
-                 <input class="btn btn-sm" type="submit" name="btn_pesquisa">
+                 <input class="btn btn-sm btn-primary" type="submit" name="btn_pesquisa">
              </form>
            <hr>
               <!--Controlador de tamanho e margem da tabela-->

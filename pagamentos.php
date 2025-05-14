@@ -70,11 +70,11 @@
                 <div class="form-group col-md-2">
                     <label>Forma de Pagamento:</label>
                     <select  name="c_forma" class="form-control form-control-sm col-md-10 col-sm-10" placeholder="Informe a forma de pagamento" required>
-                      <option value="1-Dinheiro">1. Dinheiro</option>
-                      <option value="2-Débito">2. Débito</option>
-                      <option value="3-Crédito">3. Crédito</option>
-                      <option value="4-Pix">4. Pix</option>
-                      <option value="5-Outros">5. Outros</option>
+                      <option value="1-Dinheiro">1-Dinheiro</option>
+                      <option value="2-Débito">2-Débito</option>
+                      <option value="3-Crédito">3-Crédito</option>
+                      <option value="4-Pix">4-Pix</option>
+                      <option value="5-Outros">5-Outros</option>
                     </select>
                   </div>
                 <div class="form-group col-md-3">

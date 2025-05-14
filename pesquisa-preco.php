@@ -6,7 +6,8 @@
     <head>
         <!--LINK CSS-->
         <link rel="stylesheet" href="Css/index.css">
-    <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
+        <link rel="stylesheet" href="Css/pags-aux.css">
+        <link rel="shortcut icon" href="Imagens/icons/bread-icon.png">
         <!--LINK CDN BOOTSTRAP-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
       </head>
@@ -56,7 +57,7 @@
     <P>
         <div class="container">
           <div class="container-principal-locals">
-          <hr> <hr> <hr> <hr> <hr> <hr> <h4 class="page-header">PREÇOS DE VENDA</h4>
+            <h4 class="page-header">Preços de Venda</h4>
              <form class="form-inline" action="pesquisa-preco.php" method="POST">
                 <input type="text" class="form-control form-control-sm col-md-10 col-sm-10" name="c_pesquisa" placeholder="Pesquisar Preços de Venda" required="">
                  <input class="btn btn-sm" type="submit" name="btn_pesquisa">
@@ -68,9 +69,9 @@
                             <thead>
                                 <th>Produto</th>
                                 <th>Descrição do Produto</th>
-                                <th>UM</th>
+                                <th>Unid</th>
                                 <th>Preço de Venda</th>
-                                <th>Familia</th>
+                                <th>Tipo de Produto</th>
                                 <th>Data Validade</th>
                                 <th>Data Cadastro</th>
                                 <th>Ações</th>

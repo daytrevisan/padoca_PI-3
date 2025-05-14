@@ -273,7 +273,7 @@
             <div id="footer-footer" class="footer-container">
 
                 <img src="Imagens/logos/logo_padoca.png" alt="Logotipo da Padoca">
-                <p id="copyright">&copy; Copyright Padoca Sistemas para Padarias - 2024</p>   
+                <p id="copyright">&copy; Copyright Padoca Sistemas para Padarias - 2025</p>   
 
             </div>
 

@@ -69,9 +69,9 @@
                             <thead>
                                 <th>Produto</th>
                                 <th>Descrição do Produto</th>
-                                <th>UM</th>
+                                <th>Unidade</th>
                                 <th>Preço de Venda</th>
-                                <th>Familia</th>
+                                <th>Família</th>
                                 <th>Data Validade</th>
                                 <th>Data Cadastro</th>
                                 <th>Ações</th>
